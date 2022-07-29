@@ -1,0 +1,20 @@
+# Fork the repository instead of creating a new branch on the same owner.
+### Needed to operate on repositories where you don't have enought permissions
+fork: true
+
+# If set, make the fork to the defined value. Default behavior is for the fork to be on the logged in user.
+### Set to a test organisation to not polute your GitHub profile with many forks
+fork-owner: jenkins-infra-team
+
+# Comment or set to false the following line to run the script for real
+# dry-run: true
+
+# # # The name, including owner of a GitHub repository in the format "ownerName/repoName".
+repo:
+  # - lemeurherve/jenkins-infra-test-plugin
+  - jmMeessen/schedule-build-plugin
+  # - jenkinsci/jenkins-infra-test-plugin
+  # - jenkinsci/schedule-build-plugin
+  # - jenkinsci/testng-plugin-plugin
+  # - jenkinsci/priority-sorter-plugin
+  # - jenkinsci/nodelabelparameter-plugin
