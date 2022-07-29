@@ -11,7 +11,7 @@ fork-owner: jenkins-infra-team
 
 # # # The name, including owner of a GitHub repository in the format "ownerName/repoName".
 repo:
-  # - lemeurherve/jenkins-infra-test-plugin
+  - lemeurherve/jenkins-infra-test-plugin
   - jmMeessen/schedule-build-plugin
   # - jenkinsci/jenkins-infra-test-plugin
   # - jenkinsci/schedule-build-plugin
